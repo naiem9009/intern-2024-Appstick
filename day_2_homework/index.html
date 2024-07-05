@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#fae2b8]">
+    <section class="flex justify-center items-center min-h-screen">
+        <!-- main content  -->
+        <div class="w-2/5 bg-[#292121] p-8 rounded-md">
+          <!-- content header -->
+          <h1 class="text-white text-3xl text-center font-bold">To do List</h1>
+          <div class="flex items-center justify-center gap-2 mt-5">
+            <input type="text" class="text-md px-3 py-2 outline-none rounded-md">
+            <button class="px-4 py-2 bg-[#2e60ea] rounded-md text-white">Add</button>
+          </div>
+          <!-- end content header -->
+
+          <div class="mt-5">
+            <h1 class="text-center text-white font-bold text-xl">Task List</h1>
+
+            <!-- content items -->
+            <div class="flex justify-between items-center border border-white p-3 mt-5 rounded-md">
+              <div>
+                <input type="checkbox">
+                <span class="text-white ms-1">wash dishes</span>
+              </div>
+
+              <div>
+                <a class="text-red-500 mr-2" href="">Delete</a>
+                <a class="text-red-500" href="">Edit</a>
+              </div>
+            </div>
+
+
+            <div class="flex justify-between items-center border border-white p-3 mt-5 rounded-md">
+              <div>
+                <input checked type="checkbox">
+                <span class="ms-1 line-through text-gray-400">edit resume</span>
+              </div>
+
+              <div>
+                <a class="text-red-500 mr-2" href="">Delete</a>
+                <a class="text-red-500" href="">Edit</a>
+              </div>
+            </div>
+
+
+            <div class="flex justify-between items-center border border-white p-3 mt-5 rounded-md">
+              <div>
+                <input type="checkbox">
+                <span class="text-white ms-1">finish Codedex course</span>
+              </div>
+
+              <div>
+                <a class="text-red-500 mr-2" href="">Delete</a>
+                <a class="text-red-500" href="">Edit</a>
+              </div>
+            </div>
+            <!-- end content items -->
+
+
+            <hr class="my-3 border-[1px] border-[#2e60ea]" />
+
+            <!-- content footer -->
+            <div class="text-center text-white">
+              <span>Completed: 1</span> | 
+              <span>Uncompleted: 2</span>
+            </div>
+          </div>
+        </div>
+    </section>
+</body>
+</html>
